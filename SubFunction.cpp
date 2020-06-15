@@ -7,6 +7,5 @@ void RecHelloWorld(std::string HW, int st) {
 	else {
 		std::cout << HW.substr(0, st) << '\n';
 		RecHelloWorld(HW, ++st);
-		std::cout << HW.substr(0, st) << '\n';
 	}
 }
